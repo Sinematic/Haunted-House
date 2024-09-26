@@ -407,10 +407,21 @@ sky.material.uniforms.sunPosition.value.set(0.3, - 0.038, - 0.95)
 scene.fog = new THREE.FogExp2('#04343f', 0.1)
 
 
+/**
+ * Live settings
+*/
+
+// gui.hide()
+// controls.minDistance = 3
+// controls.maxDistance = 15
+
+// controls.minPolarAngle = Math.PI / 3
+// controls.maxPolarAngle =  Math.PI / 2.2
 
 /**
  * Animate
  */
+
 const timer = new Timer()
 
 const tick = () =>
